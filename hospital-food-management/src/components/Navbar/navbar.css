@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffdd57 !important;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-left: 0 !important;
+    margin-bottom: 0.5rem;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+}
